@@ -1,0 +1,31 @@
+\documentclass[12pt,twoside,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+
+\geometry{
+	a4paper, 
+	left=20mm,
+	right=20mm,
+}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\begin{document}
+	TITLE
+	\newpage
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}	
+	\subfile{sections/personas/personas.tex}
+\end{document}

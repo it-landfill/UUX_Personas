@@ -1,0 +1,8 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+UUX_Personas.out
+*.gz
+*.toc
+*.out
